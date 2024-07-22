@@ -17,20 +17,6 @@ void swap(int *a, int *b)
 * @n: another one
 * Description: a function for printing
 */
-void print_array(int *arr, size_t n)
-{
-	int i = 0;
-
-	for (; i < n; i++)
-	{
-		printf("%d", arr[i]);
-		if (i < (n - 1))
-		{
-			printf(", ");
-		}
-	}
-	printf("\n");
-}
 
 /**
 * bubble_sort - bubble_sort
